@@ -3,7 +3,7 @@ package metododeburbuja;
 import java.util.Scanner;
 /**
  * @author Anderson Suarez, Andres Chila
- * @version 1.0
+ * @version 2.0
  * @since 26/02/2017
  */
 public class MetodoDeBurbuja {
@@ -26,6 +26,7 @@ public class MetodoDeBurbuja {
             System.out.print("Elemento " + j + " : ");
             arreglo[i] = sc.nextInt();
         }
+        //llamado del metodo de ordenamiento
         burbuja(arreglo);
         }
         //Toco declararlo estatic, la verdad no se porque me arrojaba un error y esa es la opcion que da el compilador para evitar el error
